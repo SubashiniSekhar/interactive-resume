@@ -1,0 +1,125 @@
+.navbar {
+    background-color:  #3498DB;
+    height: 100px;
+}
+
+.navbar-brand {
+    font-size: 30px;
+   }
+.navbar-default .navbar-nav li a{
+    color : #212F3D;
+}
+.navbar-default .navbar-brand{
+    color: #1C2833;
+}
+.navbar-default .navbar-nav li a:focus
+{
+    background-color: #1B4F72;
+}
+.navbar-nav{
+    font-size: 20px;
+}
+.main-menu{
+    width: 200px;
+}
+.main-menu:hover{
+    background-color: white;
+    height: 100px;
+}
+ul.nav li:active{
+    background-color: white;
+}
+#work-pic{
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    margin: 15px;
+}
+#work-year{
+margin : 10px;
+font-family: monospace;
+font-weight: bold;
+}
+#work-block{
+    font-family: monospace;
+    position: relative;
+    left: 270px;
+    bottom: 60px;
+    width: 60%;
+    padding: 10px;
+}
+#exp-block{
+margin-bottom: -10px;
+}
+
+#work-role{
+margin-right : 50px;
+font-weight: bold;
+font-size: 18px;
+}
+
+#work-company{
+margin : 20px;
+font-size: 12px;
+}
+
+#company-desc{
+
+}
+
+.work-odd{
+background-color: #85C1E9;
+}
+
+.work-even{
+background-color: #AEB6BF;
+    /*#A4A4A4;*/
+}
+
+.skill-odd{
+    background-color: #1F618D;
+}
+.skill-even{
+    background-color: #34495E;
+}
+#about-me-obj{
+    background-color: #ADD8E6;
+    margin-left: 225px;
+    margin-top: -25px;
+    position: relative;
+    padding: 15px;
+    color: #000;
+    border-radius: 10px;
+    width: 590px;
+
+}
+
+#about-page{
+
+    margin-left: 100px;
+    font-family: monospace;
+}
+#word{
+    font-size: larger;
+}
+
+#personal-details-para{
+    display:inline-block;
+}
+
+.progress{
+
+    height: 10px;
+    width: 205px;
+}
+.progress-array-item{
+    position:relative;
+    top: -15px;
+    left: 120px;
+}
+
+#personal-details-block{
+    display: block;
+}

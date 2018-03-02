@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body >
+<div id="about-page">
+<h1>About Me</h1>
+
+My Objective is <div id="about-me-obj"> <span >{{abtMe.objective}}</span></div>
+
+<div style="margin-top: 50px"><span> I am a </span> <span id="word"></span></div>
+
+    <button style="margin-top: 50px">Personal Details</button>
+<div style="margin-top: 20px" id="personal-details-block">
+          <p >
+        <div ng-repeat="(key, value) in abtMe.details"><strong>{{key}}</strong> : {{value}}</div>
+         </p>
+</div>
+
+
+
+</div>
+</body>
+</html>
+

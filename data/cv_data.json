@@ -1,0 +1,16 @@
+{
+
+  "about-me-desc": ['web application developer', 'relentless learner', 'reader', 'dreamer'],
+  "about-me-likes": ['reading', 'travelling'],
+  "about-me-objective": 'A web developer with experience in both front end and backend web development but at present more focused on front end, I am striving to become good at both. I am looking for challenging work and a  holistic environment to better my skills and make meaningful contributions.',
+  "personal-detials":
+  {
+    "Date of birth": '23/10/1983',
+    "Civil Status": 'Female, Married',
+    "Nationality": 'Indian',
+    "Work permit status": 'Spouse of EU citizen, authorized to work in the EU'
+  }
+
+
+
+}

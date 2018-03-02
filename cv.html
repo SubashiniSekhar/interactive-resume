@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myCV">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="https://code.angularjs.org/1.6.4/angular-resource.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.3/angular-ui-router.min.js"></script>
+
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="cv_styles.css">
+
+    <script src="cv_model.js"></script>
+</head>
+
+<body>
+
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">Subashini Sekhar</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <!--<li><a class="main-menu" ui-sref="about-me">about me</a><span style="margin-left: 40px" class="glyphicon glyphicon-user"></span> </li>-->
+            <!--<li><a class="main-menu" ui-sref="resume">resume</a><span style="margin-left: 40px" class="glyphicon glyphicon-list"></span></li>-->
+            <!--<li><a class="main-menu" ui-sref="projects">projects</a><span style="margin-left: 40px" class="glyphicon glyphicon-book" ></span></li>-->
+            <!--<li><a class="main-menu" ui-sref="contact-me">contact me</a><span style="margin-left: 40px" class="glyphicon glyphicon-envelope"></span></li>-->
+            <li class="main-menu" ><a ui-sref="about-me">about me</a><span style="margin-left: 40px" class="glyphicon glyphicon-user"></span> </li>
+            <li class="main-menu" ><a ui-sref="resume">resume</a><span style="margin-left: 40px" class="glyphicon glyphicon-list"></span></li>
+            <li class="main-menu" ><a ui-sref="projects">projects</a><span style="margin-left: 40px" class="glyphicon glyphicon-book" ></span></li>
+            <li class="main-menu" ><a ui-sref="contact-me">contact me</a><span style="margin-left: 40px" class="glyphicon glyphicon-envelope"></span></li>
+        </ul>
+    </div>
+</nav>
+
+<div ui-view></div>
+</body>
+</html>

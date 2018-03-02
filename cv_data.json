@@ -1,0 +1,97 @@
+{
+  "AboutMe":{
+    "AboutMeDesc": ["web application developer", "relentless learner", "reader", "dreamer"],
+    "AboutMeLikes": ["reading", "travelling" ],
+    "AboutMeObjective": "A web developer with experience in both front and back end web development but at present more focused on front end, I am striving to come to a senior level in front end programming. I am looking for challenging work and a holistic environment to better my skills and make meaningful contributions.",
+    "PersonalDetails":
+    {
+      "Date Of Birth": "23/10/1983",
+      "Civil Status": "Female, Married",
+      "Nationality": "Indian",
+      "Work Permit Status": "Spouse of EU citizen, authorized to work in the EU"
+    }
+  },
+  "Resume":{
+    "Education":[
+      {
+      "Company": "SRM Easwari Engineering College [Anna University]",
+      "Role": "B.Tech in Information Technology",
+      "YearOfWork": "2001-2005"
+      }
+    ],
+
+    "WorkExperience" : [
+      {
+        "Company": "Cipal Schaubroeck N.V , Belgium",
+        "YearOfWork": "Oct 2015 – Present",
+        "Role": "Front End Web developer",
+        "CompanyDescription": "Cipal Schaubroeck, a Belgium based company, undertakes projects from the local governments (Gemeente) . The project GOLF of which I was a part, was an application suite to process the various stages in building permits needed to build a residence, a factory etc in a workflow model. The front end of the application uses Javascript with AngularJS and the backend was in Java with Restful webservices.",
+        "Responsibilty": ["Responsible for design, coding and implementation.",
+                          "•Involved in Production issues and providing maintenance support for the application."]
+      },
+      {
+        "Company": "PeopleXS Holdings B.V, The Netherlands",
+        "YearOfWork": "May 2010 – December 2012",
+        "Role": "Web developer",
+        "CompanyDescription": "The recruitment and talent management solution offered by PeopleXS is a Coldfusion application. It is an online tool that streamlines the hiring process in big organizations and universities focusing in pooling talent and managing workflows in doing so, in order to spot the right candidates.",
+        "Responsibilty": ["Involved in design and development of modules.",
+          "Involved in design and development of modules."]
+      },
+      {
+        "Company": "Verizon Data Services India Pvt. Ltd., Chennai - India",
+        "YearOfWork": "April 2007 – February 2008",
+        "Role": "Web developer",
+        "CompanyDescription": "Verizon is a CMMI 5 provider of broadband, wireless and fixed line facilities to all over US. It is also the pioneer in Fibre optic networks in the US. Natural Returns i-Console, a J2EE application was used for customers who return to Verizon services from another competitor and want to retain their telephone numbers. It was a major winback application used for promotions to reward old customers. The application was written in Java, JSP and Servlets.",
+        "Responsibilty": ["Involved in design and development of modules.",
+          "Involved in design and development of modules."]
+      },
+      {
+        "Company": "Sify Ltd , Chennai - India",
+        "YearOfWork": "July 2005- March 2007",
+        "Role": "Software Engineer",
+        "CompanyDescription": "Sify Ltd is one of the largest broadband / communications private network in India . Web and Interface module of Beacon NMS :Beacon is a comprehensive network infrastructure management solution designed to aid in monitoring the network. Using Beacon, SNMP enabled network devices can be monitored. Beacon’s web interface is for the report generation of the information that has been monitored by the Beacon NMS. Reports for outage that show the downtime /uptime of devices, for threshold violation by various devices configured in the network, as well as the performance reports in graph format, the addition or deletion of devices in the network by users, escalating of the problems encountered for technical assistance by issuing trouble tickets etc. The application is mainly in Core Java with the web and interface sub module being in JSP, Servlets and AJAX. The web application uses Tomcat server. It uses a MySQL backend.",
+        "Responsibilty": ["Involved in design and development of modules.",
+          "Involved in design and development of modules."]
+      }
+    ],
+    "SkillSet":{
+      "frontend":
+      {
+        "Languages":["Javascript ES 5 -90% " , "Javascript ES 6 -80%"],
+        "Frameworks": ["AngularJS 1.4-80%", "Angular 4-80%", "JQuery-75%"],
+        "Unit Testing": "Jasmine with Karma(Test Runner)-80%",
+        "CSS Framework": ["Bootstrap - 60%","Sass -"],
+        "Other FrontEnd Tools": "Yeoman, Bower, Grunt, npm"
+      },
+      "backend":
+      {
+        "Programming Platforms": "Java (5), Coldfusion 9",
+        "Web Servers": "Apache Http, Tomcat, Coldfusion 9",
+        "Unit Testing": "JUnit",
+        "Databases": "MySQL 5",
+        "ORM": "Hibernate",
+        "Web app framework": "Spring",
+        "Web Services" : "JAX-RS with Jersey",
+        "Build Tool": "Maven"
+      },
+    "other":
+      {
+        "Version Control": "GIT",
+        "Software Development Methodology": "Agile Scrum",
+        "Project Management Tools": "JIRA",
+        "IDEs": "Eclipse, CFEclipse, IntelliJ IDEA , Adobe Brackets, Webstorm"
+      }
+    }
+
+
+  },
+  "ContactMe":
+  {
+    "mobileno": "+32 (0)4 681 62 276",
+    "email_id": "xyz@gmail.com",
+    "home_address": "some addressm some city, belgium"
+  }
+
+
+}
+
